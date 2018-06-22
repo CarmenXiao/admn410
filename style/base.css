@@ -1,0 +1,254 @@
+﻿@charset "utf-8";
+body { 
+	background-image: url(../images/bodybg.png);
+	background-repeat: no-repeat;
+	background-position: center top;
+	font-family: "宋体";
+	font-size: 12px;
+	margin: 0px;
+	padding: 0px;
+	color: #999;
+	background-color: #FFF;
+	font-family: "Microsoft YaHei UI";
+}
+.importanttitle {
+	color: #000;
+	font-size: 36px;
+	font-family: Arial, Helvetica, sans-serif;
+	margin-top: 30px;
+}
+
+#container ul {
+	list-style-type: none;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding: 0px;
+}
+#container ul li {
+	float: left;
+	margin-right: 35px;
+	margin-left: 35px;
+}
+.clear {
+	clear: both;
+	margin: 0px;
+	padding: 0px;
+	height: 0px;
+	width: 0px;
+}
+.piccenter {
+	text-align: center;
+	text-indent: 0;
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+#container h2 {
+	color: #900;
+	border-bottom-width: 2px;
+	border-bottom-style: solid;
+	border-bottom-color: #900;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	margin-bottom: 30px;
+	width: 20%;
+	margin-left: 20px;
+}
+#footer {
+	padding-top: 20px;
+	background-color: #008BDC;
+	padding-bottom: 20px;
+}
+#footer div p {
+	text-indent: 0;
+}
+
+#footer div {
+	color: #FFF;
+	width: 960px;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 0px;
+}
+
+
+
+.bigpic {
+	border: 1px solid #CCC;
+	padding: 20px;
+	background-color: #FFF;
+}
+
+
+
+
+
+h1 {
+	color: #900;
+	text-align: center;
+	margin-bottom: 30px;
+}
+#container #content h2 {
+	width: 100%;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #900;
+}
+#container #content p .bigpic {
+	width: 600px;
+	height: 400px;
+}
+
+
+
+
+#header {
+	width: 1000px;
+	margin-right: auto;
+	margin-left: auto;
+	height: 100px;
+	position: relative;
+	margin-top: 10px;
+}
+#header #topnav {
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #FFF;
+	font-weight: bold;
+	font-size: 9px;
+}
+#header #topnav  a {
+	color: #FFF;
+	font-size: 12px;
+	font-weight: bold;
+	text-decoration: none;
+	margin-right: 5px;
+	margin-left: 5px;
+	padding-top: 5px;
+	padding-right: 20px;
+	padding-bottom: 5px;
+	padding-left: 20px;
+}
+
+#header #topnav a:hover {
+	background-color: #F00;
+}
+#mainnav {
+	position: absolute;
+	left: 200px;
+	/*width: 700px;*/
+	top: 40px;
+}
+#mainnav ul {
+	list-style-type: none;
+	margin: 0px;
+	padding: 0px;
+}
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+#mainnav ul li {
+	float: left;
+	margin-right: 20px;
+}
+#header #mainnav ul li  a {
+	display: block;
+	font-size: 15px;
+	color: #FFF;
+	text-decoration: none;
+	padding: 10px 2px;
+	font-family: ".PingFang SC";
+	font-weight: 300;
+}
+#header #mainnav ul li a:hover {
+	color: #F60;
+}
+#header #mainnav ul li a.navcurrent {
+	color: #F60;
+}
+#container {
+	width: 960px;
+	margin-top: 30px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	position: relative;
+	background-color: #eee;
+	padding-top: 30px;
+	padding-right: 0px;
+	padding-bottom: 30px;
+	padding-left: 0px;
+}
+p {
+	line-height: 1.5em;
+	text-indent: 2em;
+	margin: 20px;
+}
+.logopic {
+	border: 1px solid #333;
+	background-color: #FFF;
+	padding: 20px;
+	height: 100px;
+	width: 100px;
+	margin: 10px;
+}
+
+#container #sidebar {
+	padding: 20px;
+	width: 180px;
+	float: left;
+}
+#container #content {
+	width: 700px;
+	margin-left: 220px;
+	padding: 20px;
+}
+#container #sidebar #subnav a {
+	display: block;
+	padding-bottom: 5px;
+	border-bottom-width: 1px;
+	border-bottom-style: dotted;
+	border-bottom-color: #333;
+	margin-bottom: 20px;
+	color: #333;
+	text-decoration: none;
+	font-size: 18px;
+	font-weight: bold;
+	width: 80%;
+}
+#container #sidebar #subnav .navcurrent {
+	color: #F00;
+	border-bottom-color: #F00;
+}
+#container #sidebar #subnav a:hover {
+	color: #F00;
+	border-bottom-color: #F00;
+}
+.logofloat {
+	border: 1px dotted #333;
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 20px;
+	background-color: #FFF;
+	padding: 20px;
+	height: 100px;
+	width: 100px;
+}
+#container #content h3 {
+	color: #333;
+	text-align: center;
+}
+#container #content .shangpin li div {
+	height: 130px;
+}
+.realprice {
+	color: #F00;
+	font-weight: bold;
+}
+
+
+.team .piccenter img{width: 400px!important;height: auto!important;}

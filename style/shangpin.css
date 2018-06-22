@@ -1,0 +1,20 @@
+@charset "utf-8";
+#container #content .shangpin li {
+	padding: 20px;
+	width: 160px; 
+	background-color: #FFF;
+	border: 1px solid #333;
+	text-align: center;
+	margin-right: 10px;
+	margin-left: 10px;
+	margin-bottom: 30px;
+}
+#container #content .shangpin li div p {
+	text-align: left;
+	margin: 0px;
+	text-indent: 0;
+}
+.price {
+	color: #000;
+	text-decoration: line-through;
+}
